@@ -1,0 +1,9 @@
+Package: com.ra9stuff.accessory_alert_blocker
+Name: accessory_alert_blocker
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: blocks "downloading accessory firmware" alert.
+Maintainer: rA9stuff
+Author: rA9stuff
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
