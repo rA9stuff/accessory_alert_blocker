@@ -4,9 +4,9 @@ INSTALL_TARGET_PROCESSES = SpringBoard
 
 include $(THEOS)/makefiles/common.mk
 
-TWEAK_NAME = accblocker
+TWEAK_NAME = AccessoryAlertBlocker
 
-accessory_alert_blocker_FILES = Tweak.x
-accessory_alert_blocker_CFLAGS = -fobjc-arc
+AccessoryAlertBlocker_FILES = Tweak.x
+AccessoryAlertBlocker_CFLAGS = -fobjc-arc
 
 include $(THEOS_MAKE_PATH)/tweak.mk
